@@ -12,9 +12,9 @@ for($i = 0; $i < $n ; $i++){
 	}
 
 	if ($array[$i] > $array[$min]){
-      $temp = $array[$i];
-      $array[$i] = $array[$min];
-      $array[$min] = $temp;
+	      $temp = $array[$i];
+	      $array[$i] = $array[$min];
+	      $array[$min] = $temp;
 	}
 }
 
