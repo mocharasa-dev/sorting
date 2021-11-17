@@ -62,7 +62,7 @@
           echo "Lantai ".$a." : ";
           for($i=0; $i < $pattern ; $i++){
             $cab = $counter + $i;
-            echo $cab.", ";
+            echo " ".$cab." ";
             if($loker == $cab){
               $found = $a;
             }
